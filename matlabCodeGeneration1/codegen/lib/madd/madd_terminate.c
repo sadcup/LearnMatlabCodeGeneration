@@ -2,7 +2,7 @@
  * File: madd_terminate.c
  *
  * MATLAB Coder version            : 2.7
- * C/C++ source code generated on  : 29-Oct-2015 13:37:34
+ * C/C++ source code generated on  : 29-Oct-2015 15:37:28
  */
 
 /* Include Files */

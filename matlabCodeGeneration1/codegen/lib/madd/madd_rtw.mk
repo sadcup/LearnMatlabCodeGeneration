@@ -2,7 +2,7 @@
 ## Makefile generated for MATLAB file/project 'madd'. 
 ## 
 ## Makefile     : madd_rtw.mk
-## Generated on : Thu Oct 29 13:37:36 2015
+## Generated on : Thu Oct 29 15:37:30 2015
 ## MATLAB Coder version: 2.7 (R2014b)
 ## 
 ## Build Info:
@@ -28,7 +28,7 @@ MATLAB_ROOT               = /Applications/MATLAB_R2014b.app
 MATLAB_BIN                = /Applications/MATLAB_R2014b.app/bin
 MATLAB_ARCH_BIN           = /Applications/MATLAB_R2014b.app/bin/maci64
 MASTER_ANCHOR_DIR         = 
-START_DIR                 = /Users/netiger/Desktop/matlabCodeGeneration1
+START_DIR                 = /Users/netiger/GitHub/Matlab/LearnMatlabCodeGeneration/matlabCodeGeneration1
 ARCH                      = maci64
 RELATIVE_PATH_TO_ANCHOR   = .
 
