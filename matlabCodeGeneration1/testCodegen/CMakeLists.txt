@@ -1,0 +1,26 @@
+MESSAGE("cmake start......")
+CMAKE_MINIMUM_REQUIRED(VERSION 2.8)
+
+PROJECT(testCodeGen)
+
+SET(ROOT_DIR ./../codegen/lib/madd)
+
+INCLUDE_DIRECTORIES(${ROOT_DIR})
+FIND_LIBRARY(EXTERN_LIB madd ${ROOT_DIR})
+MESSAGE(${EXTERN_LIB})
+
+
+SET(HEADER_FILES 
+	${ROOT_DIR}/madd.h
+	${ROOT_DIR}/rtwtypes.h
+	${ROOT_DIR}/madd_types.h
+)
+
+SET(SOURCE_FILES
+	${ROOT_DIR}/madd.c
+	main.c
+)
+
+ADD_EXECUTABLE(testMatlabAdd ${HEADER_FILES} ${SOURCE_FILES})
+
+TARGET_LINK_LIBRARIES(testMatlabAdd ${EXTERN_LIB})

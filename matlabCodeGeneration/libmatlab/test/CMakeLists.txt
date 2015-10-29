@@ -1,0 +1,22 @@
+CMAKE_MINIMUM_REQUIRED (VERSION 2.8)
+
+PROJECT (testLibMatlab)
+
+SET(ROOT_DIR ./../../codegen/lib/madd/)
+
+SET(HEADER_FILES 
+	
+)
+
+SET(SOURCE_FILES
+	main.c
+)
+
+INCLUDE_DIRECTORIES(./../include)
+
+FIND_LIBRARY(MATLAB_LIBRARY matlab ./../lib)
+
+
+ADD_EXECUTABLE (testLibMatlab ${HEADER_FILES} ${SOURCE_FILES})
+
+TARGET_LINK_LIBRARIES(testLibMatlab ${MATLAB_LIBRARY})

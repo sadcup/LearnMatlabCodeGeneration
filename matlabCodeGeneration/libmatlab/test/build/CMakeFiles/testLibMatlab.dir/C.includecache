@@ -1,0 +1,40 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+.././../include/func.h
+stdio.h
+.././../include/stdio.h
+stdlib.h
+.././../include/stdlib.h
+
+.././../include/madd.h
+stddef.h
+-
+stdlib.h
+-
+rtwtypes.h
+.././../include/rtwtypes.h
+madd_types.h
+.././../include/madd_types.h
+
+.././../include/madd_types.h
+rtwtypes.h
+.././../include/rtwtypes.h
+
+.././../include/rtwtypes.h
+
+/Users/netiger/Desktop/matlabCodeGeneration/libmatlab/test/main.c
+stdio.h
+/Users/netiger/Desktop/matlabCodeGeneration/libmatlab/test/stdio.h
+stdlib.h
+/Users/netiger/Desktop/matlabCodeGeneration/libmatlab/test/stdlib.h
+madd.h
+/Users/netiger/Desktop/matlabCodeGeneration/libmatlab/test/madd.h
+func.h
+/Users/netiger/Desktop/matlabCodeGeneration/libmatlab/test/func.h
+

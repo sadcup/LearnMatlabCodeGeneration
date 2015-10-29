@@ -1,0 +1,5 @@
+/Users/netiger/Desktop/matlabCodeGeneration/libmatlab/lib/libmatlab.a
+/Users/netiger/Desktop/matlabCodeGeneration/libmatlab/include/madd.h
+/Users/netiger/Desktop/matlabCodeGeneration/libmatlab/include/madd_types.h
+/Users/netiger/Desktop/matlabCodeGeneration/libmatlab/include/rtwtypes.h
+/Users/netiger/Desktop/matlabCodeGeneration/libmatlab/include/func.h
